@@ -75,7 +75,7 @@ http://localhost:4321/temp/workbench.html
 
 You should see the following in the web part:
 
-![SharePoint page context in localhost](./images/sp-mock-localhost-wp.png)
+![SharePoint page context in localhost](../../images/sp-mock-localhost-wp.png)
 
 Now navigate to `workbench.aspx` hosted in SharePoint, which should be:
 
@@ -85,7 +85,7 @@ https://your-sharepoint-site-url/Shared%20Documents/workbench.aspx
 
 By default, your browser is configured to not load scripts from localhost. Workbench will notify you if that is the case:
 
-![Load unsafe scripts to run scripts from localhost](./images/sp-workbench-o365-unsface-scripts.png) 
+![Load unsafe scripts to run scripts from localhost](../../images/sp-workbench-o365-unsface-scripts.png) 
 
 In order to execute local scripts, in the Chrome browser, click the grey shield in the right side of the address bar to load unsafe scripts. This is due to loading scripts over HTTP while connected to a page via HTTPS.
 
